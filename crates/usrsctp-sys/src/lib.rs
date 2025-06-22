@@ -75,6 +75,27 @@ impl<T> ::std::cmp::PartialEq for __BindgenUnionField<T> {
 	}
 }
 impl<T> ::std::cmp::Eq for __BindgenUnionField<T> {}
+pub const SOCK_STREAM: u32 = 1;
+pub const SOCK_SEQPACKET: u32 = 5;
+pub const PF_INET: u32 = 2;
+pub const PF_INET6: u32 = 30;
+pub const IPPROTO_SCTP: u32 = 132;
+pub const IPCTL_FORWARDING: u32 = 1;
+pub const IPCTL_SENDREDIRECTS: u32 = 2;
+pub const IPCTL_DEFTTL: u32 = 3;
+pub const IPCTL_RTEXPIRE: u32 = 5;
+pub const IPCTL_RTMINEXPIRE: u32 = 6;
+pub const IPCTL_RTMAXCACHE: u32 = 7;
+pub const IPCTL_SOURCEROUTE: u32 = 8;
+pub const IPCTL_DIRECTEDBROADCAST: u32 = 9;
+pub const IPCTL_INTRQMAXLEN: u32 = 10;
+pub const IPCTL_INTRQDROPS: u32 = 11;
+pub const IPCTL_STATS: u32 = 12;
+pub const IPCTL_ACCEPTSOURCEROUTE: u32 = 13;
+pub const IPCTL_FASTFORWARDING: u32 = 14;
+pub const IPCTL_KEEPFAITH: u32 = 15;
+pub const IPCTL_GIF_TTL: u32 = 16;
+pub const IPCTL_MAXID: u32 = 17;
 pub type __uint8_t = ::std::os::raw::c_uchar;
 pub type __uint16_t = ::std::os::raw::c_ushort;
 pub type __uint32_t = ::std::os::raw::c_uint;
